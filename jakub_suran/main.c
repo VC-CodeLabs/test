@@ -2,6 +2,10 @@
 #include <limits.h>
 #include <stdio.h>
 
+void thisIsChangedFile() {
+    printf("Hello world");
+}
+
 void printArray(int* nums, int numSize) {
     printf("[");
     for (int i = 0; i < numSize; i++) {
